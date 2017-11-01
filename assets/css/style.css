@@ -1,0 +1,118 @@
+/* =============================
+	css Mario Mackay
+   ============================= */
+body{
+width:90%;
+margin: 0 auto;
+}
+#name {
+background-color:cadetblue;
+color:white;
+padding:2%
+
+}
+#navitems a{
+color:grey;
+border-left: 0.5px solid grey;
+}
+
+#navitems a:hover{
+color:goldenrod;
+
+}
+
+footer{
+position:fixed;
+bottom:0;
+left:0;
+background-color:darkgrey;
+color:white;
+text-align: center;
+width:100%;
+padding:1%;
+
+}
+
+.container{
+background-color: white;
+width:100%;
+height:auto;
+display:block;
+margin:0 auto;
+margin-bottom:5%;
+box-shadow: inset 1.8px 1.2px 1px grey;
+background-image:url("../img/pgbkg.jpg");
+background-size:cover;
+position:relative;
+}
+
+/*about me box image */
+#aboutMeBox img
+{
+width:75%;
+display:block;
+margin: 1% auto;
+box-shadow: 1.8px 1.2px 1px black;
+}
+
+
+/*connect with me box images */
+#connectWithMeBox img
+{
+width:20%;
+height20%;
+}
+/*connect with me box images */
+#connectWithMeBox img
+{
+width:20%;
+height20%;
+}
+
+#connectWithMeBox h4, #aboutMeBox h4
+{
+color:cadetblue;
+border-bottom: 0.5px solid grey;
+margin-bottom: 25px;
+}
+
+#connBox, #aboutMeBox 
+{
+margin:50px 0px 150px 0px;
+}
+.pf{
+display:block;
+margin:2% auto;
+position:relative;
+box-shadow: 1.8px 1.5px 1.2px black;
+
+}
+.pf p {
+background-color: cadetblue;
+color:white;
+padding:2%;
+position:absolute;
+bottom:8%;
+left:0;
+width:100%;
+text-align:center;
+
+
+}
+.pf img:hover 
+{ 
+transform: scale(1.1); 
+}
+
+.pf img
+{ 
+width:100%; 
+}
+
+.form-group{
+
+width: 50%;
+display:block;
+margin: 2%;
+}
+
